@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Zen+Kurenaido&display=swap');
+
+
+
+.media-picture{
+    background-image: url('https://colunaboraviajar.com.br/wp-content/uploads/2021/03/simps-1024x576.jpg');
+background-repeat: no-repeat;
+background-position: center;    
+height: 400px;
+
+}
+.titulo{
+
+    font-family: 'Zen Kurenaido';
+    font-size:100px ;
+    color: #fae104;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/7d/a6/96/7da696f1987d39249d42946f331ccc1b.jpg');
+    
+}
+    
+    .review-score{
+        background-color: #fae104;
+    }
+    .aboutmovie{
+        color:#c97200 ;
+        background-color: #2f00ff;
+        font-family: 'Zen Kurenaido';
+    }
+    .criticas{
+        color:#c97200  ;
+        background-color: #2f00ff;
+        font-family: 'Zen Kurenaido';
+    }
+   
