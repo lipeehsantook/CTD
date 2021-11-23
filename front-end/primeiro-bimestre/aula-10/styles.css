@@ -1,0 +1,22 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+form{
+padding: 12px;
+
+}
+
+label,button{
+    margin-top: 10px;
+}
+
+    label, input, textarea,button{
+        display: block;
+        
+    }
+
+   
