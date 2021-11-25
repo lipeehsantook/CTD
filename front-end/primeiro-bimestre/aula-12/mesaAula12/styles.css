@@ -1,0 +1,129 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+
+display: grid;
+grid-template-columns: 200px 1fr;
+grid-template-areas: 
+'main-topo main-topo'
+'main-menu main-content'
+'main-footer main-footer'
+;
+
+}
+
+header{
+width: 100%;
+background-color: #6219a7;
+grid-area: main-topo;
+height: 50px;
+
+
+
+}
+
+h1{
+
+    text-align:center;
+    color: #fff8dc;
+    font-size: 50px;
+}
+
+aside{
+
+background-color: #000000;
+grid-area: main-menu;
+height: 970px;
+}
+
+.main-menu li:nth-child(odd) {
+    background-color: #b4792c;
+
+
+}
+
+
+
+li {
+
+padding: 15px;
+text-align: center;
+margin-top: 10px;
+background-color:#dfa04e ;
+color: floralwhite;
+transition: .2s;
+
+
+}
+li:hover{
+
+    font-size: 20px;
+}
+
+img{
+width: 1700px;
+height: 950px;
+opacity: 50%;
+z-index: 100;
+
+}
+
+main{
+
+background-color: #000000;
+grid-area: main-content;
+}
+
+form {
+    width: 800px;
+    height: 60px;
+    background-color: #ddaf72;
+    position: absolute;
+    border-radius: 12px;
+    margin-left: 100px;
+   
+    
+    z-index: 99;
+}
+
+legend {
+
+font-size: 30px;
+
+}
+
+footer{
+
+background-color: #8a2be2;
+grid-area: main-footer;
+
+}
+
+.rockt::before{
+width: 50px;
+height: 40px;
+display: inline-block;
+content: '';
+background-image: url('https://static.todamateria.com.br/upload/pl/an/planeta-terra-og.jpg');
+background-position: center;
+background-size:contain;
+background-repeat: no-repeat;
+
+}
+
+.rockt::after{
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    content: '';
+    background-image: url('https://static.todamateria.com.br/upload/pl/an/planeta-terra-og.jpg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
