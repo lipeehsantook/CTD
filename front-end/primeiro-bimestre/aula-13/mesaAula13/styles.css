@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+
+@keyframes bola {
+    0% {
+
+        transform: translate(-100px, 0);
+        opacity: 0;
+        background-color: #0000ff;
+    }
+    50% { 
+        transform: translate(300px, 0);
+        opacity: .5;
+        background-color: #45f88a;
+
+    }
+100% {
+
+    transform: translate(0, 0);
+    opacity: 1;
+    background-color: #f6f864;
+}
+
+}
+
+
+.circle{
+display: block;
+height: 100px;
+width: 100px;
+background-color: #0000ff;
+border-radius: 50px;
+animation-name: bola;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+
+img{
+width: 100px;
+height: 100px;
+margin-top: 200px;
+margin-left: 100px;
+transition-duration: .4s;
+
+
+
+}
+
+img:hover{
+
+
+transform:scale(2) skew(10deg);
+
+
+}
+
+button{
+
+    padding: 25px 50px;
+    
+    background-color: #b27de4;
+    border: none;
+    margin-left: 30px;
+    margin-top: 400px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    
+    
+
+}
+
+button:hover{
+    background-color: #8a2be2;
+    color: #ffffff;
+    border-radius: 30px;
+    transform:scale(1.2);
+
+
+}
